@@ -1,0 +1,33 @@
+# System files
+.DS_Store
+Thumbs.db
+[Dd]esktop.ini
+
+# HYF auto-grader output
+.hyf/score.json
+
+# Editor / IDE
+.vscode/
+.idea/
+*.code-workspace
+
+# Python
+__pycache__/
+*.pyc
+*.py[cod]
+*.pyo
+.Python
+.venv/
+venv/
+*.egg-info/
+dist/
+build/
+
+# Environments and secrets
+.env
+.env.*
+!.env.example
+
+# Local runtime output (the cloud copies are the source of truth)
+output/
+*.log
